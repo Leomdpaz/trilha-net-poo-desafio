@@ -1,4 +1,13 @@
-# DIO - Trilha .NET - Programação orientada a objetos
+<h1 align="center">DIO - Trilha .NET - Programação orientada a objetos</h1>
+
+<h1 align="center">RESOLVIDO ✔</h1> 
+Projeto desenvolvido junto à <strong><a href="https://github.com/digitalinnovationone">@digitalinnovationone</a></strong> na <em>Trilha .NET</em> durante o Bootcamp Decola Tech Avanade.
+
+   O  objetivo é modelar um sistema que trabalha com celulares. Sendo possível informar seu número e aplicativo que deseja instalar, atentando-se à informação que os modelos de celulares devem ser classes filhas.
+<hr>
+
+<h1 align="center">Apresentação do desafio 👨‍💻</h1> 
+
 www.dio.me
 
 ## Desafio de projeto
@@ -20,3 +29,5 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+<h1 align="center">Código completo ✔</h1>
