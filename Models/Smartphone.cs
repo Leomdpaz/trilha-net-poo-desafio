@@ -15,12 +15,22 @@ namespace DesafioPOO.Models
 
         public void Ligar()
         {
-            Console.WriteLine("Ligando...");
+            Console.Write("ligando");
+            for (int i = 0; i < 3; i++)
+        {
+            Thread.Sleep(900); // Pausa de 0.9 segundos
+            Console.Write(".");
+        }
         }
 
         public void ReceberLigacao()
         {
-            Console.WriteLine("Recebendo ligação...");
+            Console.Write("recebendo Ligação");
+            for (int i = 0; i < 3; i++)
+        {
+            Thread.Sleep(900); // Pausa de 0.9 segundos
+            Console.Write(".");
+        }
         }
 
         public abstract void InstalarAplicativo(string nomeApp);

@@ -1,5 +1,6 @@
 ﻿using DesafioPOO.Models;
 using System;
+using System.Threading;
 
 class Program
 {
@@ -8,16 +9,18 @@ class Program
         Console.WriteLine("Informe o número para o iPhone:");
         string numeroIphone = Console.ReadLine();
         Iphone iphone = new Iphone(numeroIphone);
+
         Console.Write("O número " + numeroIphone + " está ");
         iphone.Ligar();
 
-        Console.WriteLine("Informe o número para o Nokia:");
+        Console.WriteLine("\nInforme o número para o Nokia:");
         string numeroNokia = Console.ReadLine();
         Nokia nokia = new Nokia(numeroNokia);
+
         Console.Write("O número " + numeroNokia + " está ");
         nokia.ReceberLigacao();
 
-        Console.WriteLine("--------------------");
+        Console.WriteLine("\n--------------------");
 
 
         Console.WriteLine("Informe o aplicativo para instalar no iPhone:");
@@ -26,7 +29,7 @@ class Program
 
 
 
-        Console.WriteLine("--------------------");
+        Console.WriteLine("\n--------------------");
 
         Console.WriteLine("Informe o aplicativo para instalar no Nokia:");
         string appNokia = Console.ReadLine();
